@@ -3,7 +3,7 @@ name: CI/CD for Spring Boot App
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
