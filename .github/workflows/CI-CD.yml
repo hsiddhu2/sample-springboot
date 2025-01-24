@@ -3,7 +3,7 @@ name: CI/CD for Spring Boot App
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -46,6 +46,7 @@ jobs:
         run: |
           echo "$DEPLOY_KEY" > $HOME/key.pem
           chmod 400 $HOME/key.pem
+          cat $HOME/key.pem  # Debugging step to verify key content
 
       - name: Copy WAR to EC2
         uses: appleboy/scp-action@master
