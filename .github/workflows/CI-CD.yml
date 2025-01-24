@@ -53,7 +53,7 @@ jobs:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ec2-user
           key: ${{ secrets.DEPLOY_KEY }}
-          source: "target/*.war"
+          source: "target/spring-boot-app.war"
           target: "/home/ec2-user/deployment/spring-boot-app.war"
 
       - name: Connect SSH and Restart Services
