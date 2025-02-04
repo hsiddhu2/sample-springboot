@@ -1,4 +1,4 @@
-# Sampple Spring Boot Application with home and health check endpoint.
+# Sample Spring Boot Application with home and health check endpoint.
 
 This Spring Boot application is created to test deployments on AWS EC2 and ECS using GitHub Actions or AWS CodePipeline.
 
