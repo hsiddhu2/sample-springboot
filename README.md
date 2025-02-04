@@ -1,10 +1,10 @@
-# Spring Boot HelloWorld Application
+# Sampple Spring Boot Application with home and health check endpoint.
 
 This Spring Boot application is created to test deployments on AWS EC2 and ECS using GitHub Actions or AWS CodePipeline.
 
 ## Features
 
-- Simple Spring Boot application with a home page.
+- Simple Spring Boot application with a home page - http://localhost:8080
 - Thymeleaf template engine for rendering HTML views.
 - Configured for deployment on AWS EC2 and ECS.
 
